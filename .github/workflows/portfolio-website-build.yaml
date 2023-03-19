@@ -14,7 +14,7 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: ./main
+  DEPLOYMENT_FOLDER: https://github.com/Apearson14/portfolio-website
 
 jobs:
 # Please do not rename this job
@@ -33,7 +33,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-us.ionos.space
-          project-id: 99d92d9f-ddd9-4901-8cf3-0eece658cb7f
+          project-id: 59fba4cb-9f6f-4212-8707-87400cc2816e
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
