@@ -151,6 +151,10 @@ button:focus,
  width: 33%;
 }
 
+.table {
+  display: inline-block;
+}
+
 /* end grid fallback */
 
 @supports (display: grid) {
