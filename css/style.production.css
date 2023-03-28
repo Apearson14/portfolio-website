@@ -144,6 +144,9 @@ a {
     list-style-type: none;
     padding: 0;
   }
+  .table {
+    text-align: center;
+  }
 
   .button-cv {
     color:aliceblue;
